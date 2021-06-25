@@ -1,0 +1,272 @@
+.big-wraper{
+    width: 100%;
+padding-bottom: 40px;
+    background-image: url("img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo1{
+    float: left;
+}
+.logo1{
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+b{
+ position: relative;
+ top: 15px;
+ left: 3px;
+}
+ul{
+float: right;
+list-style: none;
+font-size: 20px;
+margin-top: 25px;
+}
+li{
+    float: left;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+}
+.alok{
+    margin-top: 80px;
+}
+.alok h1{
+    color: white;
+    font-size: 60px;
+}
+.alok h2{
+    font-size: 40px;
+    color: white;
+}
+.btn{
+    width: 130px;
+    border: none;
+    padding: 10px;
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  
+}
+form{
+    background-color: white;
+    height: 420px;
+    
+}
+#a{
+    width: 80%;
+    height: 45px;
+    margin-top: 15px;
+}
+
+#n{
+    width: 80%;
+    height: 60px;
+    margin-top: 10px;
+}
+.btn1{
+    width: 130px;
+    border: none;
+    padding: 10px;
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+position: relative;
+top: 10px;
+}
+
+.to{
+    margin-top: 30px;
+    font-weight: 100;
+}
+.to h3{
+    color: gray;
+}
+.to p{
+    font-size: 1.5rem;
+}
+
+.img2 img{
+    width: 70%;
+ margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 3%;
+}
+
+
+.full-quat{
+    width: 100%;
+    height: 600px;
+    background-image: url("img/coffee-shop.jpg");
+    margin-top: 30px;
+    background-size: cover;
+    background-position:center top;
+}
+
+
+.bor{
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.small{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 220px;
+    color: white;
+}
+.small p{
+    font-size: 1.4rem;line-height: 23px;
+    letter-spacing: 1px;
+}
+.box{
+    padding-bottom: 60px;
+}
+.box img{
+    width: 70%;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.box p{
+    width: 60%;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gh{
+    padding-top: 50px;
+}
+
+.left2 img{
+    width: 10%;
+  background-color: tomato;
+  position: relative;
+  left: 90%;
+}
+
+.right2 img{
+    width: 10%;
+  background-color: tomato;
+}
+
+.fu{
+    width: 100%;
+    height: 600px;
+    background-image: url("img/testimonial-bg.jpg");
+    background-size: cover;
+    margin-top: 10px;
+}
+.sd{
+    width: 46%;
+}
+.as img{
+    width: 70%;
+    margin-top: 20px;
+    height: 500px;
+}
+.as h3{
+    color: white;
+}
+.quat{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.cen{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.cen h1{
+  
+    color: white;
+    font-size: 35px;
+}
+button{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    font-weight: bold;
+    font-size: 1.9rem;
+    color: black;
+}
+.fg{
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+/* media query starts */
+@media only screen and (max-width:600px){
+    .pure{
+        width: 90%;
+        font-size: 10px;
+    }
+    .btn{
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    form{
+        width: 100%;
+    }
+    .to{
+        margin-top:70px;
+        margin-bottom: 40px;
+    }
+    .img2 img{
+        margin-left: 40px;
+    }
+    .small{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .small .btn{
+        width: 48%;
+    }
+
+    .box{
+padding-bottom: 30px;
+    }
+    .left2 img{
+        position: relative;
+        left:50%;
+    
+    }
+    .right2 img{
+        position: relative;
+       left:50%;
+       margin-top: 20px;
+    }
+    .as img{
+        width: 150%;
+      
+    }
+  
+    .quat{
+        height: 330px;
+       
+       
+    }
+   
+}
